@@ -27,7 +27,7 @@ section{
     padding-left: 2%; 
 }
 
-img{
+.half-width img{
    width: 100%;
 } 
 .header-span{
@@ -50,5 +50,35 @@ h1{
     border-radius: 30px;
     color: white;
     font-weight: 400;
+    
+    
+}
+
+.middle-area{
+    background-image: url(img/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.middle-area .half-width img{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 61%;
+}
+
+.middle-area .half-width h2{
+    margin-top: 30%;
+    font-weight: 700;
+    color:#707070;
+}
+
+.middle-area .half-width p{
+    color:#000000;
+}
+.box{
+    width:30%;
+}
+h2{
+    font-size: 40px;
     
 }
