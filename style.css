@@ -139,7 +139,8 @@ h3{
     margin-top: 10%;
     background-image:url(img/shapes/Frame\ 59.jpg);
     height:100px;
-    
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .info{
     font-size: 20px;
